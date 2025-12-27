@@ -48,7 +48,7 @@
 Для запуска тестов:
 ```
 iverilog -g2012 -o unit_tests unit_tests.v
-./unit_tests
+vvp unit_tests
 ```
 
 Disclaimer: прохождение всех тестов не гарантирует полный балл.
